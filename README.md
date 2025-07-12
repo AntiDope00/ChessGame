@@ -1,2 +1,2 @@
 # ChessGame
-a pyhton & html chessgame in development 
+a pyhton & html chessgame, player against AI trained CPU

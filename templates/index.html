@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <link rel="stylesheet" href="layout.css" type="text/css">
+  <title>Mini Chessboard</title>
+ 
+  
+</head>
+<body>
+
+  <div class="topbar">
+    🧠 AI Chess
+  </div>
+	<br></br>
+  <div class="container">
+ <script type="module">
+  document.addEventListener("DOMContentLoaded", async () => {
+    const { generateChessboard } = await import("{{ url_for('static', filename='chessboard.js') }}");
+    generateChessboard(".chess-container");
+  });
+</script>
+
+
+  </div>
+
+
+</body>
+</html>
+

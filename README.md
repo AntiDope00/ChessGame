@@ -1,2 +1,2 @@
 # ChessGame
-a pyhton chessgame
+a pyhton & html chessgame in development 
